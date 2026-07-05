@@ -16,6 +16,19 @@ This repository contains hands-on projects for:
 
 ## Repository structure
 
+```text
+AITestingBlueprint3x/
+├── BasicRAG_Tanveer/          # RAG app with React + Flask + ChromaDB
+├── chapter_01_LLM_Basics/     # LLM notes and interactive learning files
+├── chatpter_03_n8n_Agents/     # n8n/agent workflow examples
+├── Job_Tracker_AI/             # Kanban-style job tracker app
+├── Project1_TC_Gen/            # Test case generation and QA docs
+├── Project2_Selenium_Framework/ # Selenium automation framework exercises
+├── templates/                  # Reusable prompt and test templates
+├── Anti_Hallucinations_Rules.md
+└── README.md
+```
+
 | Area | Purpose |
 |---|---|
 | [BasicRAG_Tanveer](BasicRAG_Tanveer) | A React + Flask RAG demo that ingests PDFs, creates chunks, stores embeddings, and answers questions using an LLM. |
@@ -74,6 +87,7 @@ A local-first React application for tracking job applications with:
 - This repository is intended for learning, experimentation, and portfolio-style development.
 - Some folders are focused on conceptual understanding, while others are structured for real QA workflows.
 - The guidance in [Anti_Hallucinations_Rules.md](Anti_Hallucinations_Rules.md) is especially useful when using AI for testing and documentation tasks.
+- The projects here can be used as a reference base for AI-assisted QA, automation, and RAG experiments.
 
 ## Recommended next steps
 
